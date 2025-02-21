@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Maxperseus130\\Desktop\\Tema1\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{F8BE4052-F173-4B94-90D3-006F998E7B76}|Tema1\\Tema1.vcxproj|C:\\Users\\Maxperseus130\\Desktop\\Tema1\\Tema1\\Tema1.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{F8BE4052-F173-4B94-90D3-006F998E7B76}|Tema1\\Tema1.vcxproj|solutionrelative:Tema1\\Tema1.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Tema1.cpp",
+              "DocumentMoniker": "C:\\Users\\Maxperseus130\\Desktop\\Tema1\\Tema1\\Tema1.cpp",
+              "RelativeDocumentMoniker": "Tema1\\Tema1.cpp",
+              "ToolTip": "C:\\Users\\Maxperseus130\\Desktop\\Tema1\\Tema1\\Tema1.cpp",
+              "RelativeToolTip": "Tema1\\Tema1.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-02-21T18:38:24.374Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
