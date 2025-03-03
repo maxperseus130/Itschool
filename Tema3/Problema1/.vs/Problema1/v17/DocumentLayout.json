@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Maxperseus130\\Desktop\\Tema3\\Problema1\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{241F0BDC-2B14-4B08-86D6-E90EB2C1A325}|Problema1\\Problema1.vcxproj|C:\\Users\\Maxperseus130\\Desktop\\Tema3\\Problema1\\Problema1\\Problema1.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{241F0BDC-2B14-4B08-86D6-E90EB2C1A325}|Problema1\\Problema1.vcxproj|solutionrelative:Problema1\\Problema1.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Problema1.cpp",
+              "DocumentMoniker": "C:\\Users\\Maxperseus130\\Desktop\\Tema3\\Problema1\\Problema1\\Problema1.cpp",
+              "RelativeDocumentMoniker": "Problema1\\Problema1.cpp",
+              "ToolTip": "C:\\Users\\Maxperseus130\\Desktop\\Tema3\\Problema1\\Problema1\\Problema1.cpp",
+              "RelativeToolTip": "Problema1\\Problema1.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-02-27T17:55:55.035Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
