@@ -14,7 +14,7 @@ int main()
     {
         cout << "Ar merge o prajitura cu acea cafea." << endl;
     }
-    else if (optiune == "ceai") 
+    else if (optiune == "ceai") // rasp.compare("ceai") == 0
     {
         cout << "Ar merge un biscuite cu acel ceai." << endl;
     }

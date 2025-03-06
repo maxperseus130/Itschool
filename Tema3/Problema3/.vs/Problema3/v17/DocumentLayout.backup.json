@@ -1,9 +1,9 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\Maxperseus130\\Desktop\\Tema3\\Problema3\\",
+  "WorkspaceRootPath": "C:\\Users\\Maxperseus130\\Desktop\\Itschool\\Tema3\\Problema3\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A18C5522-9338-4D9A-807C-5C7B3FF3EE40}|Problema3\\Problema3.vcxproj|C:\\Users\\Maxperseus130\\Desktop\\Tema3\\Problema3\\Problema3\\Problema3.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "AbsoluteMoniker": "D:0:0:{A18C5522-9338-4D9A-807C-5C7B3FF3EE40}|Problema3\\Problema3.vcxproj|C:\\Users\\Maxperseus130\\Desktop\\Itschool\\Tema3\\Problema3\\Problema3\\Problema3.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{A18C5522-9338-4D9A-807C-5C7B3FF3EE40}|Problema3\\Problema3.vcxproj|solutionrelative:Problema3\\Problema3.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
@@ -20,11 +20,11 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Problema3.cpp",
-              "DocumentMoniker": "C:\\Users\\Maxperseus130\\Desktop\\Tema3\\Problema3\\Problema3\\Problema3.cpp",
+              "DocumentMoniker": "C:\\Users\\Maxperseus130\\Desktop\\Itschool\\Tema3\\Problema3\\Problema3\\Problema3.cpp",
               "RelativeDocumentMoniker": "Problema3\\Problema3.cpp",
-              "ToolTip": "C:\\Users\\Maxperseus130\\Desktop\\Tema3\\Problema3\\Problema3\\Problema3.cpp",
+              "ToolTip": "C:\\Users\\Maxperseus130\\Desktop\\Itschool\\Tema3\\Problema3\\Problema3\\Problema3.cpp",
               "RelativeToolTip": "Problema3\\Problema3.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAADAAAAAtAAAAAAAAAA==",
+              "ViewState": "AgIAAC0AAAAAAAAAAAAuwDsAAAA+AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2025-03-03T15:28:34.487Z",
               "EditorCaption": ""

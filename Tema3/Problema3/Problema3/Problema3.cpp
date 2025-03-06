@@ -7,9 +7,9 @@ using namespace std;
 //int main()
 //{
 //    char op;
-//    int nr1, nr2;
+//    float nr1, nr2;
 //    cout << "Introduceti numerele si operatorul dorit" << endl;
-//    cin >> nr1 >> nr2 >> op;
+//    cin >> nr1 >> nr2 >> op; // cin >> nr1, cin >> nr2;
 //    switch (op)
 //    {
 //    case '+':
@@ -38,9 +38,14 @@ using namespace std;
 //    return 0;
 //}
 
+
+#define CONSTANTA_KELVIN 273.15 //constanta la nivel global; folositoare pentru updaturi
+
+//sau: const float constata_KELVIN = 273.15; poate fi folosita ca variabila fara const; sau constexpr dar are uzuri mai avansate
+
 int main()
 {
-	float grade;
+	float grade; // float nu poate fi folosit de switch
 	int op;
 	cout << "Introduceti temperatura in grade Celsius:" << endl;
 	cin >> grade;
@@ -57,7 +62,7 @@ int main()
 	}
 	case 2:
 	{
-		cout << grade << " grade Celsius = " << grade + 273.15 << "grade Kelvin" << endl;
+		cout << grade << " grade Celsius = " << grade + CONSTANTA_KELVIN << " grade Kelvin" << endl;
 		break;
 	}
 	default:
