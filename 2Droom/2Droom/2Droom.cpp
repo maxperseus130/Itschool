@@ -3,20 +3,55 @@
 
 #include <iostream>
 #include <conio.h>
+#include <fstream>
+#include <string>
 
 #define KEY_UP 72
 #define KEY_DOWN 80
 #define KEY_LEFT 75
 #define KEY_RIGHT 77
-#define ESCAPE 27
+#define TAB 9
 
 using namespace std;
 
 int x = 5, y = 5;
+int m = 0, n = 0;
+int keyX, keyY;
+int doorX, doorY;
+int state = 0;
+char map[100][100];
 
 int main();
 
 void afisare(int x, int y);
+
+void citire()
+{
+	string text;
+	int i = 0;
+	ifstream file("level1_" + to_string(state) + ".txt");
+	getline(file, text);
+	m = (text[0] - '0') * 10 + (text[1] - '0'); //coloane || j
+	getline(file, text);
+	n = (text[0] - '0') * 10 + (text[1] - '0'); //randuri || i
+	getline(file, text);
+	keyX = (text[0] - '0') * 10 + (text[1] - '0');
+	getline(file, text);
+	keyY = (text[0] - '0') * 10 + (text[1] - '0');
+	getline(file, text);
+	doorX = (text[0] - '0') * 10 + (text[1] - '0');
+	getline(file, text);
+	doorY = (text[0] - '0') * 10 + (text[1] - '0');
+	while (getline(file, text))
+	{
+		for (int j = 0; j < m; j++)
+		{
+			map[i][j] = text[j];
+		}
+		i++;
+	}
+	file.close();
+}
 
 int meniu()
 {
@@ -41,7 +76,7 @@ void locatie(int& x, int& y)
 		system("cls");
 		break;
 	case KEY_DOWN:
-		if (x < 10)
+		if (x < n)
 		{
 			x++;
 		}
@@ -55,13 +90,13 @@ void locatie(int& x, int& y)
 		system("cls");
 		break;
 	case KEY_RIGHT:
-		if (y < 10)
+		if (y < m)
 		{
 			y++;
 		}
 		system("cls");
 		break;
-	case ESCAPE:
+	case TAB:
 		system("cls");
 		main();
 	default:
@@ -72,49 +107,34 @@ void locatie(int& x, int& y)
 
 void afisare(int x, int y)
 {
-	for (int i = 0; i < 11; i++)
+	if (x == keyX && y == keyY)
 	{
-		for (int j = 0; j < 11; j++)
+		cout << "Ai gasit cheia!" << endl;
+		state = 1;
+	}
+	if (x == doorX && y == doorY)
+	{
+		if (state == 0)
+		{
+			cout << "Iti trebuie cheia ca inaintezi!" << endl;
+		}
+		else
+		{
+			citire();
+			system("cls");
+		}
+	}
+	for (int i = 0; i < n; i++)
+	{
+		for (int j = 0; j < m; j++)
 		{
 			if (i == x && j == y)
 			{
-				cout << " T ";
-			}
-			else if (i + j == 0)
-			{
-				cout << "|``";
-			}
-			else if (j == 10 && i == 0)
-			{
-				cout << "``|";
-			}
-			else if (i == 10 && j == 0)
-			{
-				cout << "|,,";
-			}
-			else if (i + j == 20)
-			{
-				cout << ",,|";
-			}
-			else if (i + j == j)
-			{
-				cout << "```";
-			}
-			else if (i + j == i)
-			{
-				cout << "|  ";
-			}
-			else if (i + j == i + 10)
-			{
-				cout << "  |";
-			}
-			else if (i + j == j + 10)
-			{
-				cout << ",,,";
+				cout << "T";
 			}
 			else
 			{
-				cout << "   ";
+				cout << map[i][j];
 			}
 		}
 		cout << endl;
@@ -134,6 +154,7 @@ int main()
 	default:
 		break;
 	}
+	citire();
 	afisare(x, y);
 	return 0;
 }
