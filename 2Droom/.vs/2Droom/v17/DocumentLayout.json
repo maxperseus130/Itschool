@@ -1,37 +1,12 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\Maxperseus130\\Desktop\\Itschool\\2Droom\\",
-  "Documents": [
-    {
-      "AbsoluteMoniker": "D:0:0:{0CA033D4-BD19-436E-906C-D493BD081218}|2Droom\\2Droom.vcxproj|C:\\Users\\Maxperseus130\\Desktop\\Itschool\\2Droom\\2Droom\\2Droom.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{0CA033D4-BD19-436E-906C-D493BD081218}|2Droom\\2Droom.vcxproj|solutionrelative:2Droom\\2Droom.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    }
-  ],
+  "Documents": [],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
-      "DocumentGroups": [
-        {
-          "DockedWidth": 200,
-          "SelectedChildIndex": 0,
-          "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "2Droom.cpp",
-              "DocumentMoniker": "C:\\Users\\Maxperseus130\\Desktop\\Itschool\\2Droom\\2Droom\\2Droom.cpp",
-              "RelativeDocumentMoniker": "2Droom\\2Droom.cpp",
-              "ToolTip": "C:\\Users\\Maxperseus130\\Desktop\\Itschool\\2Droom\\2Droom\\2Droom.cpp",
-              "RelativeToolTip": "2Droom\\2Droom.cpp",
-              "ViewState": "AgIAAGMAAAAAAAAAAAAAAEoAAAADAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-03-11T08:22:17.56Z",
-              "EditorCaption": ""
-            }
-          ]
-        }
-      ]
+      "DocumentGroups": []
     }
   ]
 }
